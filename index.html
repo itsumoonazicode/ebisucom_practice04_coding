@@ -9,9 +9,11 @@
 <body>
 	<header class="container">
 		<div class="header-container">
-			<nav>
+			<div>
+				<p class="logo header-logo">NAGISA</p>
+			</div>
+			<nav class="nav">
 				<ul class="flex-container header-nav">
-					<li class="logo">NAGISA</li>
 					<li>ホーム</li>
 					<li>会社概要</li>
 					<li>お問い合わせ</li>
@@ -22,14 +24,16 @@
 	<main class="container">
 		<div class="">
 			<div class="container-hero">
-				<p role="doc-subtitle">Workspace Technical Design</p>
-				<h1>ワークスペースの<br>施工・デザイン設計</h1>
-				<p>
-					新しい時代に求められるワークスペースの施工・デザインを行います。<br>
-					仕事内容や作業に合わせ、最適でモダンな環境を作り出します。
-				</p>
-				<button>お問い合わせ</button>
-				<div class="inner-hero">
+				<div class="inner-hero-paragraph">
+					<p role="doc-subtitle">Workspace Technical Design</p>
+					<h1>ワークスペースの<br>施工・デザイン設計</h1>
+					<p>
+						新しい時代に求められるワークスペースの施工・デザインを行います。<br>
+						仕事内容や作業に合わせ、最適でモダンな環境を作り出します。
+					</p>
+					<button>お問い合わせ</button>
+				</div>
+				<div class="inner-hero-img">
 					<img src="images/coworking-space.jpg" alt="">
 				</div>
 			</div>
@@ -90,19 +94,21 @@
 	</section>
 	<footer class="container">
 		<div class="footer-container">
-			<ul class="flex-container footer-nav">
-				<li class="logo">NAGISA</li>
-				<li>会社概要</li>
-				<li>プライバシーポリシー</li>
-				<li>お問い合わせ</li>
-			</ul>
-			<div class="flex-container footer-address">
+			<div>
+				<p class="logo">NAGISA</p>
 				<p>
 					〒901-3125<br>
 					沖縄県島尻郡久米島町字鳥島グスク
 				</p>
-				<p>@ NAGISA Corp. All rights reserved.</p>
-			</div>			
+			</div>
+			<div>
+				<ul class="flex-container footer-nav">
+					<li>会社概要</li>
+					<li>プライバシーポリシー</li>
+					<li>お問い合わせ</li>
+				</ul>
+				<p class="copyright">@ NAGISA Corp. All rights reserved.</p>
+			</div>
 		</div>
 	</footer>
 </body>
