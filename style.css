@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.container-hero {
+	position: relative;
+	width: 100%;
+	padding-top: 100px;
+	margin-bottom: 120px;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.inner-hero {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.fluid_banner {
+	height: 280px;
+	position: relative;
+	background-image: url(images/interior-plan.jpg);
+	background-position: center;
+}
+
+.inner-fluid_banner {
+	position: absolute;
+	top: 66px;
+	right: 60px;
+	width: 400px;
+}
+
+.default-spacing {
+	margin-bottom: 30px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.flex-order-1 {
+	order: 1;
+}
+.flex-order-2 {
+	order: 2;
+}
+
+.list-container {
+	align-items: center;
+}
+
+.logo {
+	font-weight: 600;
+	font-size: 1.4em;
+}
+/* フッター */
+.footer-container {
+	margin: 40px 0;
+}
+.footer-contents {
+	text-align: center;
+	background-color: darkseagreen;
+	padding: 80px 0;
+}
+.footer-nav {
+	padding: 0;
+	list-style-type: none;
+	justify-content: flex-end;
+}
+.footer-nav > li {
+	margin-left: 10px;
+}
+.footer-nav > li:first-of-type {
+	margin-left: 0;
+	margin-right: auto;
+}
+.footer-address {
+	justify-content: space-between;
+}
+
+/* ヘッダー */
+.header-container {
+	margin: 40px 0;
+}
+.header-nav {
+	padding: 0;
+	list-style-type: none;
+	justify-content: flex-end;
+}
+.header-nav > li {
+	margin-left: 10px;
+}
+.header-nav > li:first-of-type {
+	margin-left: 0;
+	margin-right: auto;
+}

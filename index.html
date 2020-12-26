@@ -8,31 +8,34 @@
 </head>
 <body>
 	<header class="container">
-		<nav>
-			<ul class="flex-container">
-				<li>NAGISA</li>
-				<li>ホーム</li>
-				<li>会社概要</li>
-				<li>お問い合わせ</li>
-			</ul>
-		</nav>
+		<div class="header-container">
+			<nav>
+				<ul class="flex-container header-nav">
+					<li class="logo">NAGISA</li>
+					<li>ホーム</li>
+					<li>会社概要</li>
+					<li>お問い合わせ</li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 	<main class="container">
-		<div class="flex-container">
-			<div>
+		<div class="">
+			<div class="container-hero">
 				<p role="doc-subtitle">Workspace Technical Design</p>
-				<h1>ワークスペースの施工・デザイン設計</h1>
+				<h1>ワークスペースの<br>施工・デザイン設計</h1>
 				<p>
-					新しい時代に求められるワークスペースの施工・デザインを行います。仕事内容や作業に合わせ、最適でモダンな環境を作り出します。
+					新しい時代に求められるワークスペースの施工・デザインを行います。<br>
+					仕事内容や作業に合わせ、最適でモダンな環境を作り出します。
 				</p>
 				<button>お問い合わせ</button>
-			</div>
-			<div>
-				<img src="images/coworking-space.jpg" alt="">
+				<div class="inner-hero">
+					<img src="images/coworking-space.jpg" alt="">
+				</div>
 			</div>
 		</div>
 		<section class="fluid_banner">
-			<div>
+			<div class="inner-fluid_banner">
 				<h2>ご自宅からオフィスまで</h2>
 				<p>
 					NAGISAの施工・デザイン設計では、スペースを確保するアイデアからインテリアの選定、空間との調和、ネットワーク環境の準備、セキュリティの確保など、ワークスペースに求められるさまざまな要件をクリアしていきます。
@@ -40,56 +43,60 @@
 			</div>
 		</section>
 		<article>
-			<p>Popular System</p>
-			<h2>人気の設計システム</h2>
-			<section class="flex-container">
-				<div>
+			<div class="text-center">
+				<p>Popular System</p>
+				<h2>人気の設計システム</h2>
+			</div>
+			<section class="flex-container list-container">
+				<div class="flex-order-2">
 					<p role="doc-subtitle">Original Design Environment</p>
 					<h3>環境に合わせたオリジナル設計</h3>
 					<p>
 						目的や環境に合わせて最適なワークスペースを作り出すべく、細かな打ち合わせを行い、オリジナルな環境を構築します。
 					</p>
 				</div>
-				<img src="" alt="">
+				<img class="flex-order-1" src="images/settings.png" alt="">
 			</section>
-			<section class="flex-container">
-				<div>
+			<section class="flex-container list-container">
+				<div class="flex-order-1">
 					<p role="doc-subtitle">Business Solutions</p>
 					<h3>業務の効率化と課題解決</h3>
 					<p>
 						ワークスペースの大事なポイントである「仕事や業務の効率化」「課題解決」にも、デザイン設計の視点から取り組みます。
 					</p>
 				</div>
-				<img src="" alt="">
+				<img class="flex-order-2" src="images/search.png" alt="">
 			</section>
-			<section class="flex-container">
-				<div>
+			<section class="flex-container list-container">
+				<div class="flex-order-2">
 					<p role="doc-subtitle">Fast and Secure Network</p>
 					<h3>高速でセキュアなネットワーク</h3>
 					<p>
 						現代のワークスペースには欠かすことができなくなったネットワーク環境も、高速でセキュアなトラフィックを確保して構築します。
 					</p>
 				</div>
-				<img src="" alt="">
+				<img class="flex-order-1" src="images/network.png" alt="">
 			</section>
 		</article>
 	</main>
 	<section>
-		<h2>設計やお見積りのご相談</h2>
-		<p>
-			ワークスペースの施工・デザイン設計についてのお見積りやご相談については、いつでもお問い合わせください。企業フィロソフィに応じて、インスタンス単位での発注・請負も可能です。
-		</p>
-		<button>詳しくはこちら</button>
+		<div class="footer-contents">
+			<h2>設計やお見積りのご相談</h2>
+			<p>
+				ワークスペースの施工・デザイン設計についてのお見積りやご相談については、いつでもお問い合わせください。企業フィロソフィに応じて、インスタンス単位での発注・請負も可能です。
+			</p>
+			<button>詳しくはこちら</button>
+		</div>
 	</section>
 	<footer class="container">
-		<div>
-			<ul class="flex-container">
-				<li>NAGISA</li>
-				<li>ホーム</li>
+		<div class="footer-container">
+			<ul class="flex-container footer-nav">
+				<li class="logo">NAGISA</li>
 				<li>会社概要</li>
+				<li>プライバシーポリシー</li>
 				<li>お問い合わせ</li>
 			</ul>
-			<div class="flex-container">
+			<div class="flex-container footer-address">
 				<p>
 					〒901-3125<br>
 					沖縄県島尻郡久米島町字鳥島グスク
